@@ -93,11 +93,10 @@ export default function App() {
         );
       })}
 
-      <Box marginTop={1} justifyContent="space-between">
+      <Box marginTop={1}>
         <Text dimColor>
-          [Space] Toggle  [r] Refresh  [q] Quit
+          [Space] Toggle  [r] Refresh  [q] Quit | by souls.zip & @tolibear_
         </Text>
-        <Text dimColor>built by souls.zip</Text>
       </Box>
 
       {status && (

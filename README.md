@@ -3,17 +3,10 @@
 News headlines in your Claude Code spinner. Instead of "Thinking..." you get real headlines from Hacker News, Reddit, Lobsters, dev.to, and GitHub Trending.
 
 ```
-* [HN] UUID package coming to Go standard library
-● Searching for 1 pattern, reading 7 files...
++ [🦞] Fortify your app: Essential strategies to strengthen security…
 ```
 
 ## Install
-
-```bash
-npx claudenews
-```
-
-Or install globally:
 
 ```bash
 npm install -g claudenews
@@ -34,12 +27,12 @@ Run `claudenews` to open the source picker:
 claudenews — pick your news sources
 
 > [x] [HN] Hacker News          news.ycombinator.com
-  [ ] [/r] Reddit                reddit.com
-  [ ] [🦞] Lobsters              lobste.rs
-  [ ] [dev] dev.to               dev.to
-  [ ] [GH] GitHub Trending       github.com/trending
+  [x] [/r] Reddit                reddit.com
+  [x] [🦞] Lobsters              lobste.rs
+  [x] [dev] dev.to               dev.to
+  [x] [GH] GitHub Trending       github.com/trending
 
-[Space] Toggle  [r] Refresh  [q] Quit          built by souls.zip
+[Space] Toggle  [r] Refresh  [q] Quit | by souls.zip & @tolibear_
 ```
 
 Headlines show up in your Claude Code spinner with source prefixes:
@@ -87,6 +80,10 @@ Removes hooks, restores default spinner, and deletes config.
 
 - Node.js 18+
 - Claude Code
+
+## Contributing
+
+Open source contributors are welcome! Feel free to open issues or submit pull requests.
 
 ## License
 
