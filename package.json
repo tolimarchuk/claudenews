@@ -1,0 +1,46 @@
+{
+  "name": "claudenews",
+  "version": "1.0.0",
+  "description": "News headlines in your Claude Code spinner",
+  "type": "module",
+  "bin": {
+    "claudenews": "./bin/claudenews.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "news",
+    "spinner",
+    "hackernews",
+    "cli",
+    "tui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tolibear/claudenews"
+  },
+  "author": "souls.zip",
+  "homepage": "https://github.com/tolibear/claudenews",
+  "dependencies": {
+    "ink": "^5.2.0",
+    "react": "^18.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/react": "^18.3.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
