@@ -1,9 +1,21 @@
 # claudenews
 
-News headlines in your Claude Code spinner. Instead of "Thinking..." you get real headlines from Hacker News, Reddit, Lobsters, dev.to, and GitHub Trending.
+News headlines in your Claude Code spinner.
 
+Before:
 ```
+⠋ Cogitating...
+⠙ Thinking...
+⠹ Pondering...
+```
+
+After:
+```
++ [HN] Show HN: I built a real-time collaborative text editor in Rust
 + [🦞] Fortify your app: Essential strategies to strengthen security…
++ [GH] jj-vcs/jj — A Git-compatible VCS that is both simple and powerful
++ [dev] Why SQLite is the secret weapon for modern dev workflows
++ [/r] Linux 6.14 officially drops ReiserFS
 ```
 
 ## Install
