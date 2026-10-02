@@ -95,7 +95,7 @@ export default function App() {
 
       <Box marginTop={1}>
         <Text dimColor>
-          [Space] Toggle  [r] Refresh  [q] Quit | by souls.zip & @tolibear_
+          [Space] Toggle  [r] Refresh  [q] Quit | by souls.zip & @tolimarchuk
         </Text>
       </Box>
 

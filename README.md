@@ -44,7 +44,7 @@ claudenews — pick your news sources
   [x] [dev] dev.to               dev.to
   [x] [GH] GitHub Trending       github.com/trending
 
-[Space] Toggle  [r] Refresh  [q] Quit | by souls.zip & @tolibear_
+[Space] Toggle  [r] Refresh  [q] Quit | by souls.zip & @tolimarchuk
 ```
 
 Headlines show up in your Claude Code spinner with source prefixes:
